@@ -11,7 +11,7 @@ interface ReactCodeInputProps {
   fieldHeight?: any;
   autoFocus?: boolean;
   className?: string;
-  values?: string[];
+  values?: string;
   disabled?: boolean;
   required?: boolean;
   placeholder?: string[];
