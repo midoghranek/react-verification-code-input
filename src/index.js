@@ -235,6 +235,7 @@ export default class ReactCodeInput extends Component {
               required={this.props.required}
               placeholder={this.props.placeholder[index]}
             />
+            <label />
           ))}
         </div>
         {loading && (
